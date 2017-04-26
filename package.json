@@ -1,0 +1,16 @@
+{
+  "name": "correios-extension",
+  "version": "0.1.0",
+  "description": "Rastreie objetos postados nos correios e seja alertado de munças no histórico da postagem",
+  "license": "MIT",
+  "repository": "https://github.com/vitorebatisa/rung-correios-extension.git",
+  "author": "Vitor Emanuel Batista <vitor.ebatista@gmail.com>",
+  "main": "index.js",
+  "rung": {
+    "title": "Rastreio de objetos nos correios"
+  },
+  "dependencies": {
+    "tracking-correios": "^1.1.0",
+    "ramda": "^0.23.0"
+  }
+}
