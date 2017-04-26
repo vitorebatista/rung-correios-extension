@@ -13,7 +13,8 @@ function main(context, done) {
     return TrackingCorreios
         .track(`${item}`)
         .then(( body ) => {
-            done(map(createAlert, body));
+            const alerts = map(createAlert, body);
+            done(alerts);
         })
         .catch((e) => done([e]));
     
