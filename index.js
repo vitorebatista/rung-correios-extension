@@ -16,7 +16,7 @@ function main(context, done) {
             const alerts = map(createAlert, body);
             done(alerts);
         })
-        .catch((e) => done([e]));
+        .catch(() => done([]));
     
 }
 
